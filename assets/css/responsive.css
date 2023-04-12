@@ -1,0 +1,24 @@
+@media screen and (max-width: 768px) {
+  .menu {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.8);
+    height: 100vh;
+    padding-top: 100px;
+    width: 300px;
+    text-align: center;
+    display: block;
+    /* transform: translateX(110%); */
+  }
+  .menu li {
+    margin: 20px 0;
+  }
+  .close_icon {
+    display: block;
+  }
+
+  .toggle_icon {
+    display: block;
+  }
+}
